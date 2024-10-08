@@ -1,0 +1,154 @@
+body{ 
+  background-color: brown;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+
+header{
+  background-color: blanchedalmond;
+  border-radius: 8px;
+  padding: 1px;  
+  display: flex;  
+}
+
+.titulo{
+    padding-left: 20px;
+}
+
+.opciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 500px;
+}
+
+.opciones h2{
+    padding-left: 60px;
+}
+
+.opciones a{
+    text-decoration: none;
+    color: black;
+}
+
+a :hover{
+    color: rgb(197, 38, 38);
+}
+
+.seccionHistoria{
+    display: flex;
+}
+
+.seccionHistoria img{
+    width: 500px;
+    height: 500px;
+    border-style:solid ;
+    border-radius: 10px;
+    border-color: rgb(231, 202, 157);
+}
+
+
+.descripcion{
+    border-style: solid;
+    border-color: rgb(231, 202, 157);
+    border-radius: 8px;
+    background-color: bisque;
+    width: 800px;
+    padding-left: 10px;
+    margin-left: 10px;   
+}
+
+.descripcion p{
+  font-size: 22px;
+}
+
+.tituloSeccion{  
+   display: flex;
+   justify-content: center;
+   align-items: center;    
+   border-style: double;
+   border-radius: 8px;
+   border-color: bisque;
+   background-color: rgb(0, 0, 0);
+   width: 1320px;
+   height: 40px;
+   margin: 60px 0px 10px ;
+}
+
+.tituloSeccion h1{  
+  color: aliceblue;  
+  font-size: 20px;
+  padding-bottom: 10px;    
+}
+
+.seccionPeliculas{
+  display: flex;
+}
+
+.seccionPeliculas img{
+  margin: 0px 38px 0px;  
+  border-radius: 8px;
+  border-style: groove;
+}
+
+.imag1{
+    transition: transform 0.3s ease; 
+}
+
+.imag1:hover {
+    transform: scale(1.2); 
+}
+
+.caja{
+  display: block;
+}
+
+.caja h3{
+    padding-left: 32px;
+    font-style: oblique;
+}
+
+.parte1{
+    display: flex;
+    margin: 20px 0px 0px;
+}
+
+.parte2{
+    display: flex;
+    margin: 20px 0px 0px;
+}
+
+.descrLibro{
+    display: flex;
+    margin: 0px 12px 0px;
+}
+
+.cajaParrafo{
+  border-style: solid;
+  border-color: rgb(231, 202, 157);
+  border-radius: 8px;
+  background-color: bisque;
+  width: 340px; 
+  padding: 10px;
+  margin: 0px 0px 5px;  
+}
+
+.legado{
+  display: flex;  
+
+  justify-content: center;  
+}
+
+.cajaLegado{
+    background-color: bisque;
+    border-radius: 8px;
+    width: 450px;
+    padding: 0px 100px 0px;
+    margin: 20px;
+}
+
+.arriba{
+  position: absolute;
+  left: 1260px; 
+  padding: 20px;   
+}
